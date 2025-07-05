@@ -18,7 +18,7 @@ Our simulation models this exact scenario with a **"Biased (Male-only)"** agent.
 
 To counteract this bias, we developed and evaluated two alternative reinforcement learning agents designed with fairness and inclusivity in mind:
 
-1.  ** Hybrid Adaptive Agent **: This agent is trained using a blended reward signal that is a weighted average of the comfort scores of both male and female occupants. It learns to find a compromise temperature that balances the needs of the entire population.
+1.  **Hybrid Adaptive Agent**: This agent is trained using a blended reward signal that is a weighted average of the comfort scores of both male and female occupants. It learns to find a compromise temperature that balances the needs of the entire population.
 2.  **Fairness-Aware Agent**: This agent takes a more direct approach. Its reward function is explicitly engineered to maximize overall comfort *while penalizing* the disparity (or "fairness gap") between male and female comfort scores. It is incentivized not just to make people comfortable, but to do so equitably.
 
 ---
