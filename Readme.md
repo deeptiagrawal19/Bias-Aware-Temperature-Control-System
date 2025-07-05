@@ -1,6 +1,6 @@
 # Mitigating Gender Bias in AI-Powered Climate Control: A Reinforcement Learning Approach
 
-This repository contains a Python simulation that demonstrates how gender bias can manifest in AI-driven climate control systems and presents a fairness-aware reinforcement learning solution to address it. The project highlights the stark difference in thermal comfort between male and female occupants when an AI is trained on biased data and showcases how explicitly designing for fairness can lead to more equitable and satisfactory outcomes for everyone.
+This project demonstrates how gender bias can manifest in AI-driven climate control systems and presents a fairness-aware reinforcement learning solution to address it. It highlights the stark difference in thermal comfort between male and female occupants when an AI is trained on biased data and showcases how explicitly designing for fairness can lead to more equitable and satisfactory outcomes for everyone.
 
 This work is directly inspired by the critical discussion in the *Towards Data Science* article, **["Why We Should Focus on AI for Women"](https://towardsdatascience.com/why-we-should-focus-on-ai-for-women/)**. The article compellingly argues that AI systems trained on non-representative data can lead to significant performance disparities and harmful outcomes, a problem this simulation brings to life in the context of thermal comfort.
 
@@ -26,12 +26,6 @@ To counteract this bias, we developed and evaluated two alternative reinforcemen
 ## Experimental Results & Analysis
 
 We ran a comprehensive experiment evaluating the three agents across various simulated office populations (with male population ratios of 30%, 50%, and 70%). The results are unequivocal: designing for fairness works.
-
-![Full Experiment Results](https://i.imgur.com/8aVw3sJ.png)
-> *Figure 1: Comprehensive results comparing the Biased, Hybrid, and Fairness-Aware agents across multiple metrics and population ratios.*
-
-![Detailed Performance Comparison](https://i.imgur.com/hX3K0eM.png)
-> *Figure 2: A detailed look at Temperature Distribution, Satisfaction Rates, and Bias Reduction Impact.*
 
 ### Key Findings:
 
