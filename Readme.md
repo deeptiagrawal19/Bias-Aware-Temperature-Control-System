@@ -29,15 +29,15 @@ We ran a comprehensive experiment evaluating the three agents across various sim
 
 ### Key Findings:
 
-* **Fairness Gap Reduction (Figure 1, Top-Left)**: The Biased agent creates a massive fairness gap (over 0.5). Both the Hybrid and Fairness-Aware agents reduce this gap dramatically. The **Fairness-Aware agent virtually eliminates the gap**, bringing it down to just ~0.05, demonstrating its superior ability to create an equitable environment.
+* **Fairness Gap Reduction **: The Biased agent creates a massive fairness gap (over 0.5). Both the Hybrid and Fairness-Aware agents reduce this gap dramatically. The **Fairness-Aware agent virtually eliminates the gap**, bringing it down to just ~0.05, demonstrating its superior ability to create an equitable environment.
 
-* **Satisfaction Rates (Figure 2, Middle)**: This is the most telling result. In a balanced 50/50 population, the Biased agent results in a **~95% satisfaction rate for men but a near 0% rate for women**. In stark contrast, the **Fairness-Aware agent achieves over 85% satisfaction for *both* genders**. It finds a solution that serves everyone.
+* **Satisfaction Rates **: This is the most telling result. In a balanced 50/50 population, the Biased agent results in a **~95% satisfaction rate for men but a near 0% rate for women**. In stark contrast, the **Fairness-Aware agent achieves over 85% satisfaction for *both* genders**. It finds a solution that serves everyone.
 
-* **Temperature Distribution (Figure 2, Left)**: The agents' learned behaviors are clear. The Biased agent consistently targets a temperature around 22°C. The Hybrid and Fairness-Aware agents learn to maintain a temperature closer to **23.5°C**, a much more inclusive middle ground that accommodates the preferences of both groups.
+* **Temperature Distribution **: The agents' learned behaviors are clear. The Biased agent consistently targets a temperature around 22°C. The Hybrid and Fairness-Aware agents learn to maintain a temperature closer to **23.5°C**, a much more inclusive middle ground that accommodates the preferences of both groups.
 
-* **Overall System Accuracy (Figure 1, Top-Middle)**: Crucially, introducing fairness does not compromise performance. Both the Hybrid and Fairness-Aware agents achieve a higher overall system accuracy than the Biased agent, proving that **fairness and effectiveness are not mutually exclusive**.
+* **Overall System Accuracy **: Crucially, introducing fairness does not compromise performance. Both the Hybrid and Fairness-Aware agents achieve a higher overall system accuracy than the Biased agent, proving that **fairness and effectiveness are not mutually exclusive**.
 
-* **Bias Reduction Impact (Figure 2, Right)**: The Fairness-Aware model consistently achieves a **~90% improvement in fairness** (reduction in the fairness gap) compared to the biased model, regardless of the population's gender ratio.
+* **Bias Reduction Impact **: The Fairness-Aware model consistently achieves a **~90% improvement in fairness** (reduction in the fairness gap) compared to the biased model, regardless of the population's gender ratio.
 
 ---
 
