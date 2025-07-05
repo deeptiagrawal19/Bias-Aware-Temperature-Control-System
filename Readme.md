@@ -18,7 +18,7 @@ Our simulation models this exact scenario with a **"Biased (Male-only)"** agent.
 
 To counteract this bias, we developed and evaluated two alternative reinforcement learning agents designed with fairness and inclusivity in mind:
 
-1.  **Hybrid Adaptive Agent**: This agent is trained using a blended reward signal that is a weighted average of the comfort scores of both male and female occupants. It learns to find a compromise temperature that balances the needs of the entire population.
+1.  ** Hybrid Adaptive Agent **: This agent is trained using a blended reward signal that is a weighted average of the comfort scores of both male and female occupants. It learns to find a compromise temperature that balances the needs of the entire population.
 2.  **Fairness-Aware Agent**: This agent takes a more direct approach. Its reward function is explicitly engineered to maximize overall comfort *while penalizing* the disparity (or "fairness gap") between male and female comfort scores. It is incentivized not just to make people comfortable, but to do so equitably.
 
 ---
@@ -29,15 +29,15 @@ We ran a comprehensive experiment evaluating the three agents across various sim
 
 ### Key Findings:
 
-* **Fairness Gap Reduction **: The Biased agent creates a massive fairness gap (over 0.5). Both the Hybrid and Fairness-Aware agents reduce this gap dramatically. The **Fairness-Aware agent virtually eliminates the gap**, bringing it down to just ~0.05, demonstrating its superior ability to create an equitable environment.
+* ** Fairness Gap Reduction **: The Biased agent creates a massive fairness gap (over 0.5). Both the Hybrid and Fairness-Aware agents reduce this gap dramatically. The **Fairness-Aware agent virtually eliminates the gap**, bringing it down to just ~0.05, demonstrating its superior ability to create an equitable environment.
 
-* **Satisfaction Rates **: This is the most telling result. In a balanced 50/50 population, the Biased agent results in a **~95% satisfaction rate for men but a near 0% rate for women**. In stark contrast, the **Fairness-Aware agent achieves over 85% satisfaction for *both* genders**. It finds a solution that serves everyone.
+* ** Satisfaction Rates **: This is the most telling result. In a balanced 50/50 population, the Biased agent results in a **~95% satisfaction rate for men but a near 0% rate for women**. In stark contrast, the **Fairness-Aware agent achieves over 85% satisfaction for *both* genders**. It finds a solution that serves everyone.
 
-* **Temperature Distribution **: The agents' learned behaviors are clear. The Biased agent consistently targets a temperature around 22°C. The Hybrid and Fairness-Aware agents learn to maintain a temperature closer to **23.5°C**, a much more inclusive middle ground that accommodates the preferences of both groups.
+* ** Temperature Distribution **: The agents' learned behaviors are clear. The Biased agent consistently targets a temperature around 22°C. The Hybrid and Fairness-Aware agents learn to maintain a temperature closer to **23.5°C**, a much more inclusive middle ground that accommodates the preferences of both groups.
 
-* **Overall System Accuracy **: Crucially, introducing fairness does not compromise performance. Both the Hybrid and Fairness-Aware agents achieve a higher overall system accuracy than the Biased agent, proving that **fairness and effectiveness are not mutually exclusive**.
+* ** Overall System Accuracy **: Crucially, introducing fairness does not compromise performance. Both the Hybrid and Fairness-Aware agents achieve a higher overall system accuracy than the Biased agent, proving that **fairness and effectiveness are not mutually exclusive**.
 
-* **Bias Reduction Impact **: The Fairness-Aware model consistently achieves a **~90% improvement in fairness** (reduction in the fairness gap) compared to the biased model, regardless of the population's gender ratio.
+* ** Bias Reduction Impact **: The Fairness-Aware model consistently achieves a **~90% improvement in fairness** (reduction in the fairness gap) compared to the biased model, regardless of the population's gender ratio.
 
 ---
 
